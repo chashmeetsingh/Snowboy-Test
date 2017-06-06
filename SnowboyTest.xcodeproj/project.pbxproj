@@ -20,7 +20,7 @@
 		04F91BA71E522B6F00BEF6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F91BA51E522B6F00BEF6E3 /* LaunchScreen.storyboard */; };
 		04F91BB21E522B6F00BEF6E3 /* SnowboyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F91BB11E522B6F00BEF6E3 /* SnowboyTestTests.swift */; };
 		04F91BBD1E522B6F00BEF6E3 /* SnowboyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F91BBC1E522B6F00BEF6E3 /* SnowboyTestUITests.swift */; };
-		6DE9A4ED1EE724D300D6220F /* Susi.pmdl in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9A4EC1EE724D300D6220F /* Susi.pmdl */; };
+		6DFDBBB11EE72AD1009A105F /* susi.pmdl in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDBBB01EE72AD1009A105F /* susi.pmdl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		04F91BB81E522B6F00BEF6E3 /* SnowboyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowboyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F91BBC1E522B6F00BEF6E3 /* SnowboyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowboyTestUITests.swift; sourceTree = "<group>"; };
 		04F91BBE1E522B6F00BEF6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DE9A4EC1EE724D300D6220F /* Susi.pmdl */ = {isa = PBXFileReference; lastKnownFileType = file; name = Susi.pmdl; path = ../../../../../../Downloads/Susi.pmdl; sourceTree = "<group>"; };
+		6DFDBBB01EE72AD1009A105F /* susi.pmdl */ = {isa = PBXFileReference; lastKnownFileType = file; path = susi.pmdl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				045F549F1E58AAEC00F8F4A4 /* common.res */,
 				045F54A11E58AAF900F8F4A4 /* alexa_02092017.umdl */,
-				6DE9A4EC1EE724D300D6220F /* Susi.pmdl */,
+				6DFDBBB01EE72AD1009A105F /* susi.pmdl */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 			files = (
 				04F91BA71E522B6F00BEF6E3 /* LaunchScreen.storyboard in Resources */,
 				045F54A21E58AAF900F8F4A4 /* alexa_02092017.umdl in Resources */,
-				6DE9A4ED1EE724D300D6220F /* Susi.pmdl in Resources */,
 				04F91BA41E522B6F00BEF6E3 /* Assets.xcassets in Resources */,
 				04F91B9F1E522B6F00BEF6E3 /* Main.storyboard in Resources */,
+				6DFDBBB11EE72AD1009A105F /* susi.pmdl in Resources */,
 				045F54A01E58AAEC00F8F4A4 /* common.res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

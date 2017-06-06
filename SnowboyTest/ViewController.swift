@@ -17,7 +17,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
     
     let WAKE_WORD = "Susi"
     let RESOURCE = Bundle.main.path(forResource: "common", ofType: "res")
-    let MODEL = Bundle.main.path(forResource: "Susi", ofType: "pmdl")
+    let MODEL = Bundle.main.path(forResource: "susi", ofType: "pmdl")
     
     var wrapper: SnowboyWrapper! = nil
     
@@ -60,11 +60,14 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
         let array = Array(UnsafeBufferPointer(start: buffer.floatChannelData![0], count:Int(buffer.frameLength)))
         
         print("Frame capacity: \(AVAudioFrameCount(file.length))")
-        print("Int16 channel array: \(array)")
+//        print("Int16 channel array: \(array)")
         print("Buffer frame length: \(buffer.frameLength)")
 
         let result = wrapper.runDetection(array, length: Int32(buffer.frameLength))
         resultLabel.text = "Snowboy result: \(result)"
+        if result == 1 {
+            print("Recognized correctly ===============")
+        }
         print("Result: \(result)")
     }
     
