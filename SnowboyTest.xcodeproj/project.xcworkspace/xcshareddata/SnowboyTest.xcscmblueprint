@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A6D47D4FE409E3A8028F392E921E6B412006CE8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A6D47D4FE409E3A8028F392E921E6B412006CE8B" : 9223372036854775807,
+    "18FD2097B1DE89B93733841679DD52525D1E2740" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0746127D-E054-4FD2-A802-9EB5C8F941BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A6D47D4FE409E3A8028F392E921E6B412006CE8B" : "Swift3\/",
+    "18FD2097B1DE89B93733841679DD52525D1E2740" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SnowboyTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SnowboyTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Kitt-AI\/snowboy",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18FD2097B1DE89B93733841679DD52525D1E2740"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chashmeetsingh\/Snowboy-Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6D47D4FE409E3A8028F392E921E6B412006CE8B"
+    }
+  ]
+}

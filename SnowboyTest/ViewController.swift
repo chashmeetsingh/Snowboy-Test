@@ -15,7 +15,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var btn: UIButton!
     
-    let WAKE_WORD = "Alexa"
+    let WAKE_WORD = "Susi"
     let RESOURCE = Bundle.main.path(forResource: "common", ofType: "res")
     let MODEL = Bundle.main.path(forResource: "Susi", ofType: "pmdl")
     
@@ -85,7 +85,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
                                                 settings: recordSettings as [String : AnyObject])
             audioRecorder.delegate = self
             audioRecorder.prepareToRecord()
-            audioRecorder.record(forDuration: 2.0)
+            audioRecorder.record(forDuration: 1.0)
             instructionLabel.text = "Speak wake word: \(WAKE_WORD)"
             
             print("Started recording...")
