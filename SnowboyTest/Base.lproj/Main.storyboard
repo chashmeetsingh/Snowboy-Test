@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G12b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SnowboyTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snowboy result: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2q-gm-LzT">
+                                <rect key="frame" x="0.0" y="317" width="375" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Pwd-Zd-TzR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fau-fH-PXj">
+                                <rect key="frame" x="0.0" y="248" width="375" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="w9e-z2-AYA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmo-5M-Syx">
+                                <rect key="frame" x="107" y="504" width="160" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="PcY-pp-ksj"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="onClickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jlg-a4-0pF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rmo-5M-Syx" secondAttribute="bottom" constant="118" id="0Mt-8z-t4u"/>
+                            <constraint firstItem="Rmo-5M-Syx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="91" id="6WK-cN-ieG"/>
+                            <constraint firstItem="fau-fH-PXj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DJM-Cc-Zpp"/>
+                            <constraint firstAttribute="trailing" secondItem="fau-fH-PXj" secondAttribute="trailing" id="UrK-aK-xLE"/>
+                            <constraint firstItem="fau-fH-PXj" firstAttribute="leading" secondItem="h2q-gm-LzT" secondAttribute="leading" id="Uwl-dJ-4OJ"/>
+                            <constraint firstItem="fau-fH-PXj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="228" id="aeB-k3-1RN"/>
+                            <constraint firstItem="h2q-gm-LzT" firstAttribute="centerX" secondItem="Rmo-5M-Syx" secondAttribute="centerX" id="eeV-If-LTs"/>
+                            <constraint firstItem="h2q-gm-LzT" firstAttribute="top" secondItem="fau-fH-PXj" secondAttribute="bottom" constant="24" id="kE8-sW-GJt"/>
+                            <constraint firstItem="fau-fH-PXj" firstAttribute="trailing" secondItem="h2q-gm-LzT" secondAttribute="trailing" id="nTK-gH-INq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="Rmo-5M-Syx" id="Laz-Ud-YHS"/>
+                        <outlet property="instructionLabel" destination="fau-fH-PXj" id="n89-JQ-DHe"/>
+                        <outlet property="resultLabel" destination="h2q-gm-LzT" id="RIr-Pj-mbv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="89.505247376311857"/>
+        </scene>
+    </scenes>
+</document>
